@@ -4,7 +4,7 @@ pipeline {
         stage('BUILD') {
             steps{
                  sh '''
-                    sleep 5
+                    make
                     echo "This is a BUILD stage"
                 '''
             }
